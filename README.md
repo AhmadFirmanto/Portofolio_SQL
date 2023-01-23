@@ -12,3 +12,4 @@
 
 ### bigquery-public-data.thelook_ecommerce 
 * Melihat dengan jumlah transaksi terbanyak dari order
+* query menggunalan bigquery-public-data.thelook_ecommerce
