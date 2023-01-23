@@ -1,0 +1,42 @@
+WITH o_order AS 
+( 
+SELECT
+`bigquery-public-data.thelook_ecommerce.orders`.created_at AS date_order, #jadikan per tahun
+`bigquery-public-data.thelook_ecommerce.orders`.num_of_item AS jumlah_item,
+`bigquery-public-data.thelook_ecommerce.order_items`.sale_price AS jual_per_item
+FROM `bigquery-public-data.thelook_ecommerce.orders`
+JOIN `bigquery-public-data.thelook_ecommerce.order_items`
+USING (order_id)
+),
+
+  per_tahun AS 
+  (
+    SELECT
+    EXTRACT(YEAR FROM date_order) AS tahun,
+    jumlah_item,
+    jual_per_item #jumlah_order = jumalj_item * jual_per_item
+    FROM o_order
+  ),
+
+  jumlah_order AS 
+  (
+    SELECT
+    tahun,
+    jumlah_item,
+    jual_per_item,
+    jumlah_item * jual_per_item AS jumlah_transaksi
+    FROM per_tahun
+  ),
+
+  jml_tansaksi AS 
+  (
+    SELECT 
+    tahun,
+    SUM(jumlah_transaksi) AS jmlh_transaksi
+    FROM jumlah_order
+    GROUP BY tahun 
+  )
+
+SELECT *
+FROM jml_tansaksi
+ORDER BY jmlh_transaksi DESC
