@@ -23,4 +23,4 @@
 * Melihat dengan jumlah transaksi terbanyak dari order
 * query menggunalan bigquery-public-data.thelook_ecommerce
 
-
+![6](https://user-images.githubusercontent.com/122749604/214211887-186531c7-dd62-4f44-8683-3ac047673e60.png)
