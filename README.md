@@ -18,3 +18,9 @@
 
 * [statement](https://github.com/AhmadFirmanto/Portofolio_SQL/blob/main/fiktif_e-comers.jml_trx) SQL dengan format .txt 
 * hasil [output](https://drive.google.com/file/d/1RPLmHsTpP9fIFDNKo3OTQcTJ2BacES7K/view?usp=sharing) save ke .csv
+
+## bigquery-public-data.thelook_ecommerce
+* Melihat dengan jumlah transaksi terbanyak dari order
+* query menggunalan bigquery-public-data.thelook_ecommerce
+
+
