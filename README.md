@@ -1,8 +1,6 @@
 # Portofolio_SQL
 
-## bigquery-public-data
-
-### bigquery-public-data.thelook_ecommerce 
+## bigquery-public-data.thelook_ecommerce 
 * melihat order dengan negara terbanyak
 * query menggunalan [bigquery-public-data.thelook_ecommerce](https://console.cloud.google.com/bigquery?sq=395717096726:afb8687643ab4a8683a50a4fcaa1a1c6) 
 
@@ -10,7 +8,7 @@
 
 * haisl [outpu](https://drive.google.com/file/d/1_KiBGHoQ2NGicnIvb-5uUvBYJWPRmEKM/view?usp=sharing) save ke format .csv
 
-### bigquery-public-data.thelook_ecommerce 
+## bigquery-public-data.thelook_ecommerce 
 * Melihat dengan jumlah transaksi terbanyak dari order
 * query menggunalan [bigquery-public-data.thelook_ecommerce](https://console.cloud.google.com/bigquery?sq=540698482033:d18e9df4bb1e4cb3b0fbf4473e9a0ab1)
 
@@ -19,7 +17,7 @@
 * [statement](https://github.com/AhmadFirmanto/Portofolio_SQL/blob/main/fiktif_e-comers.jml_trx) SQL dengan format .txt 
 * hasil [output](https://drive.google.com/file/d/1RPLmHsTpP9fIFDNKo3OTQcTJ2BacES7K/view?usp=sharing) save ke format .csv
 
-### bigquery-public-data.thelook_ecommerce
+## bigquery-public-data.thelook_ecommerce
 * mengambil kolom created_at, status, sale_price, num_of_item, gender, category, country,
 * mengkalikan kolom sale_price dan num_of_item untuk mengetahui jumlah transaksi     
 * query menggunalan [bigquery-public-data.thelook_ecommerce](https://console.cloud.google.com/bigquery?sq=540698482033:bf0ad398def043eb8c4c1ff1b52a4495)
