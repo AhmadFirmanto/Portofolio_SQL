@@ -27,4 +27,4 @@
 ![6](https://user-images.githubusercontent.com/122749604/214211887-186531c7-dd62-4f44-8683-3ac047673e60.png)
 
 * hasil [output](https://drive.google.com/file/d/1Kh25KYPkE7i7J3cDDuEHGg6EHu4F39sj/view?usp=sharing) save ke format .csv
-* hasil query akan di clining dengan menggunakan pyton dan visualisasi menggunakan tableau Public web
+* hasil query akan di clining dengan menggunakan [pyton](https://github.com/AhmadFirmanto/Portfolio-pyton/blob/main/fiktif_pyton_visual.ipynb) dan visualisasi menggunakan [tableau Public web](https://public.tableau.com/app/profile/ahmad.firmanto/viz/fiktif_ecomerce/Dashboard1)
