@@ -9,7 +9,7 @@
 * haisl [outpu](https://drive.google.com/file/d/1_KiBGHoQ2NGicnIvb-5uUvBYJWPRmEKM/view?usp=sharing) save ke format .csv
 
 ## bigquery-public-data.thelook_ecommerce 
-* Melihat dengan jumlah transaksi terbanyak dari order
+* Melihat dengan jumlah transaksi terbanyak berdasarkan tahun
 * query menggunalan [bigquery-public-data.thelook_ecommerce](https://console.cloud.google.com/bigquery?sq=540698482033:d18e9df4bb1e4cb3b0fbf4473e9a0ab1)
 
 ![2](https://user-images.githubusercontent.com/122749604/214074252-c8fae77f-f8c6-4933-93a1-76f780915f75.png)
